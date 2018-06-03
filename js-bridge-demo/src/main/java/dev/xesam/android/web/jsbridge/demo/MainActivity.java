@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     public WebView vWebView;
 
     JsBridge jsBridge;
+    //这是一个类
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
